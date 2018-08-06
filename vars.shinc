@@ -1,0 +1,7 @@
+#--------------------------------------
+# VARS
+pool="rbpool"
+ts="$(date +%Y%m%d-%H%M%S)"    # Timestamp logfile
+PROGNAME=$(basename $0)        # Name of program being run
+RESULTSDIR="./RESULTS"         # LOGFILE - record steps
+LOGFILE="${RESULTSDIR}/${PROGNAME}_${ts}.log"
